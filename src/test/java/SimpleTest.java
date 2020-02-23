@@ -1,4 +1,5 @@
 import org.junit.Test;
+import org.testng.Assert;
 
 public class SimpleTest {
     @Test
@@ -8,5 +9,9 @@ public class SimpleTest {
     @Test
     public void secondTest(){
         System.out.println("never  failed test");
+    }
+    @Test
+    public void failingTest() {
+       // Assert.fail( "Failing test" );
     }
 }
