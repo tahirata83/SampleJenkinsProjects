@@ -9,7 +9,7 @@ public class SimpleTest {
     }
     @Test
     public void secondTest(){
-        System.out.println("never  failed   test");
+        System.out.println("never 1mvn   failed   test");
     }
     @Test
     public void failingTest() {
