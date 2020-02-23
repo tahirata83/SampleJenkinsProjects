@@ -1,5 +1,6 @@
-import org.junit.Test;
+
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class SimpleTest {
     @Test
@@ -8,7 +9,7 @@ public class SimpleTest {
     }
     @Test
     public void secondTest(){
-        System.out.println("never  failed test");
+        System.out.println("never  failed   test");
     }
     @Test
     public void failingTest() {
